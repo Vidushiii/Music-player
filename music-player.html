@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="music-player-style.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+<header class="first-div">
+	<div class="para"><img src="music.jpg" style="width: 2.5rem;
+height: 2.5rem;
+margin: auto;
+margin-top: 4px;
+margin-left: 4px;
+border-radius: 50%;"><p>Play music!!</p></div>
+    
+    <nav class="navlist" style="background-color: black;">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#latest">Latest</a></li>
+				<li><a href="#bollywood">Bollywood</a></li>
+				<li><a href="#hollywood">Hollywood</a></li>
+				<li><a href="#punjabi">Punjabi</a></li>
+			
+			<li style="float: right;"><div class="search">
+				<form><button style="padding: 8px; margin-top: 8px;
+					border: none;"><i class="fas fa-search-plus"></i></button>
+					<input style="padding: 8px; margin-top: 8px;
+					border: none; background-color: lightgrey;" type="text" placeholder="Search"><button style="padding: 8px; margin-top: 8px;
+					border: none;"><i class="fas fa-microphone"></i></button>
+</form>
+</div>
+</li>
+				
+	</nav>
+			</header>
+<main style="background-color: black;">
+	<!--Latest section is for the slideshow or carousel of images with audio.-->
+	<!--<section id="latest">-->
+		<h1>Latest Hits</h1>
+	<section style="background-color: black;">
+		<div class="carousel-wrapper">
+  <span id="item-1"></span>
+  <span id="item-2"></span>
+  <span id="item-3"></span>
+  <div class="carousel-item item-1">
+    <h2>Item 1</h2>
+    <a class="arrow arrow-prev" href="#item-3"></a>
+    <a class="arrow arrow-next" href="#item-2"></a>
+  </div>
+  
+  <div class="carousel-item item-2">
+    <h2>Item 2</h2>
+    
+    <a class="arrow arrow-prev" href="#item-1"></a>
+    <a class="arrow arrow-next" href="#item-3"></a>
+  </div>
+  
+  <div class="carousel-item item-3">
+    <h2>Item 3</h2>
+    
+    <a class="arrow arrow-prev" href="#item-2"></a>
+    <a class="arrow arrow-next" href="#item-1"></a>
+  </div>
+</div>
+	</section>
+		<section>
+		<div class="indian-div">
+			<h1>Indian Singers</h1>
+		<div class="indian-img-div">
+			<img src="https://www.hindirush.com/wp-content/uploads/sites/3/2019/02/Sonu-Nigam.jpg">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKdDZQmnBdftRSHo6s8fJ4V-u_a5QZ6F6Km2WHH0AVBKACuSWi">
+			<img src="https://static.asianetnews.com/images/01ctgdfz2t6ssjs6f9j7r9wnqd/Badshah_710x400xt.jpg">
+			<img src="https://i.pinimg.com/originals/e5/e0/3c/e5e03c5c3a5bc54c34ed8da75da54845.jpg">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyPr4_U53COTrMagYuYy9__tH8-2_a5e8iPuf0bffv7NYjdHN2Ew">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVu8NJSVzaU5Wnjs5jjXHdy09dAQc5T1YqWyeUtPkcTwPZTmKIg">
+			<img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/03/23/664072-arijit-singh.jpg">
+
+		</div>
+		 <div class="p-all">
+            <p>Sonu Nigham
+               
+            </p>
+            <p>Lata Mangeshkar</p>
+            <p>Badshah</p>
+            <p>Guru Randhawa</p>
+            <p>Shreya Ghoshal</p>
+            <p>Alka Yagnik</p>
+            <p>Arijit Singh</p>
+		 </div>
+		</div>
+	</section>
+
+    <section id="bollywood">
+    <h1>Bollywood Hits..</h1>
+    	<div></div>
+    </section>
+	<section id="hollywood">
+		<div style="height: 500px;
+		background-color: black;">
+		<h1>Hollywood Hits..</h1>
+			<img src="c.one/maahi.jpg">
+		</div>
+		
+	</section>
+
+	<section id="punjabi">
+		<div style="height: 500px; background-color: black;">
+			<h1>Punjabi Beats....</h1>
+			<audio controls>
+				<source src="maahi.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+	</section>
+</main>
+</body>
+</html>
