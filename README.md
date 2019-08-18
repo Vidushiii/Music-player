@@ -1,2 +1,2 @@
 # Music-player
-Here, I am creating a music player with HTML5 and CSS3.This is a basic player with no music,as i am not using javascript.
+Here, I have created a music player with only HTML5 and CSS3.This is a basic player with a single music everywhere,as i am not using javascript.
