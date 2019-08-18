@@ -1,0 +1,291 @@
+/* Body */
+
+body {
+	margin: 0px;
+	padding: 0px;
+  background: linear-gradient(to bottom right, #16013e 0%, #1b6196 100%);
+}
+h2 {
+	font: italic bold 30px/30px Georgia, serif;
+  text-decoration: underline;
+  text-align: center;
+}
+/* end */
+
+
+/* for audio-player */
+
+.main-border{
+	width: 500px;
+	height: 500px;
+	background-image: url('https://easternhookah.com/wp-content/uploads/2016/11/Extravagent-Space-Background-Premium-Download.png');
+    background-size: contain;
+    display: inline-block;
+   margin-left: 80px;
+}
+
+.main-border h2{
+	color: #2bbdaa;
+	margin-left: 4px;
+}
+.inner-img{
+	
+	height: 265px;
+	width: 450px;
+	background-image: url(c.one/musicback.jpg);
+	background-size: contain;
+    display: block;
+    margin-left: 20px;
+    padding: 5px;
+    margin-top: 10px;   
+}
+h2:hover{
+	color: white;
+	text-decoration: underline;
+}
+.audio-player{
+	height: 130px;
+	width: 460px;
+	display: inline-block;
+	background-color: #967076;
+	margin-left: 20px;
+    margin-right: auto;
+}
+.container-audio {
+    font-family: 'Allerta', arial, Tahoma;
+    box-sizing: border-box;
+}
+
+.container-audio {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #040a2d;
+    color: #444;
+    margin: 20px auto;
+    overflow: hidden;
+}
+audio {
+  width:100%;
+  background-color: #060b25;
+
+}
+
+/* end */
+
+/* For dropdown menu */
+
+.dropbtn {
+  background-color: #f10c5a;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+ }
+.dropbtn-queue{
+	background-color: #3a2828;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	float: left;
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* end */
+
+/* side-queue */
+
+.side-queue{
+	width: 600px; 
+	height: 490px; 
+	border: 1px solid black; 
+	display: inline-block;
+	overflow-x: hidden; 
+    overflow-x: auto; 
+    float: right;
+    background-color: #94254b;
+}
+
+.side-queue h2{
+	color: pink;
+}
+.side-queue h2:hover{
+	color: white;
+}
+.side-queue a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.side-queue li{
+	font-weight: bold;
+	font-size: 20px;
+	border-bottom: 1px solid #0c8c9c;
+
+}
+.inside-queue{
+	display: inline-block;
+}
+.inside-queue a{
+	color: #efbaba;
+	text-decoration: none;
+	
+}
+.second-line{
+	display: inline-block;
+	color: #efbaba;
+	font-size: 15px;
+	font-style: italic;
+	margin-left: 5px;
+}
+.for-li li{
+	background-color: #0e0f13;
+    margin: 5px;
+}
+.for-li li:hover{
+	background-color: #3b3e4e;
+}
+.for-li i{
+	color: white;
+}
+.for-li i:hover{
+	color: pink;
+}
+
+/* end */
+
+/* main list */
+
+.queue{
+	border: solid black;
+	width: 99%;
+	margin-left: 3px;
+}
+.queue-heading{
+	display: inline-block;
+}
+.queue-heading a{
+	color: #b76788;
+	text-decoration: none;
+	font-size: 25px;
+}
+.queue-second-line{
+	display: block;
+	color: #bda7a7;
+	font-size: 20px;
+	font-style: italic;
+	margin-left: 5px;
+}
+.main-queue-li li{
+    background-color: #0f1c61;
+    margin: 5px;
+}
+.main-queue-li li:hover{
+	background-color: #3f51b5;
+}
+.main-queue-li i{
+	color: #b76788;
+	font-size: 30px;
+}
+.main-queue-li i:hover{
+	color: pink;
+}
+.para{
+	display: inline-block;
+}
+.para img{
+	width: 2.5rem;
+height: 2.5rem;
+margin: auto;
+margin-top: 4px;
+margin-left: 4px;
+border-radius: 50%;
+}
+
+/* end */
+
+/* used in both lists */
+
+li {
+	font-weight: bold;
+	font-size: 30px;
+	border-bottom: 1px solid black;
+		list-style: none;
+
+}
+.logo{
+	display: inline-block;	
+}
+
+.logo img{
+	width: 2rem;
+height: 2rem;
+margin: auto;
+margin-top: 5px;
+margin-left: 4px;
+border: 1px solid black;
+border-radius: 60%;}
+
+.player-controls-queue {
+    display: inline-block;
+    font-size: 20px;
+    float: right;
+}
+.player-controls-queue i{
+	margin-left: 20px;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+
+/* end */
+
+
+
+
+
+
+
+
+
+
+
